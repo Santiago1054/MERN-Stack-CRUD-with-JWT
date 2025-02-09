@@ -14,7 +14,7 @@ app.use(
   cors({
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Esto permite el envío de cookies\
-    origin: "https://mern-stack-crud-with-jwt-1.onrender.com",
+    origin: FRONTEND_URL ,
   })
 );
 app.use(express.json());
