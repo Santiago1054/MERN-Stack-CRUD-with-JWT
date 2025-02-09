@@ -1,6 +1,6 @@
 import axios from "./axios";
 
-const API = "http://localhost:4000/api";
+const API = "https://mern-stack-crud-with-jwt.onrender.com";
 
 export const registerRequest = (user) => axios.post(`/register`, user);
 
